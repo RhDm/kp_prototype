@@ -1,0 +1,21 @@
+# conda prototyping environment
+#
+
+name: kp_model_env
+
+channels:
+  - conda-forge
+  - rdkit
+
+dependencies:
+  - python=3.8
+  - pip
+  - numpy==1.21.4
+  - scipy==1.7.3
+  - pandas==1.3.0
+  - scikit-learn
+  - rdkit==2021.03.4
+  - bokeh==2.3.3
+  - jupyterlab
+  - pip:
+    - openpyxl
