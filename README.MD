@@ -16,6 +16,11 @@ jupyter lab
 
 ### open `model_prototype.ipynb` in Jupyter and run the code
 
+## please ignore sklearn's warnings
+### (or disable them https://stackoverflow.com/questions/32612180/eliminating-warnings-from-scikit-learn)
+
+<br>
+
 ### delete environment afterwards if not needed:
 ```
 conda remove --name kp_model_env --all
